@@ -1,0 +1,195 @@
+<Annotation, /*
+this is yujian s test program
+where we can lex any C- program
+*/>
+<Space>
+<Key Word, int>
+<Space>
+<ID, fibo>
+<Symbol, (>
+<Key Word, int>
+<Space>
+<ID, x>
+<Symbol, )>
+<Space>
+<Symbol, {>
+<Space>
+<Key Word, if>
+<Space>
+<Symbol, (>
+<ID, x>
+<Symbol, ==>
+<NUM, 0>
+<Symbol, )>
+<Space>
+<Symbol, {>
+<Space>
+<Key Word, return>
+<Space>
+<NUM, 1>
+<Symbol, ;>
+<Space>
+<Symbol, }>
+<Space>
+<Key Word, else>
+<Space>
+<Symbol, {>
+<Space>
+<Key Word, return>
+<Space>
+<ID, fibo>
+<Symbol, (>
+<ID, x>
+<Symbol, ->
+<NUM, 1>
+<Symbol, )>
+<Symbol, +>
+<ID, fibo>
+<Symbol, (>
+<ID, x>
+<Symbol, ->
+<NUM, 2>
+<Symbol, )>
+<Symbol, ;>
+<Space>
+<Symbol, }>
+<Space>
+<Symbol, }>
+<Space>
+<Key Word, int>
+<Space>
+<ID, compare>
+<Symbol, (>
+<Key Word, int>
+<Space>
+<ID, x>
+<Symbol, ,>
+<Space>
+<Key Word, int>
+<Space>
+<ID, y>
+<Symbol, )>
+<Space>
+<Symbol, {>
+<Space>
+<Key Word, if>
+<Space>
+<Symbol, (>
+<ID, x>
+<Symbol, >>
+<ID, y>
+<Symbol, )>
+<Space>
+<Symbol, {>
+<Space>
+<ID, printf>
+<Symbol, (>
+<ID, x>
+<Space>
+<Symbol, >>
+<Space>
+<ID, y>
+<Symbol, )>
+<Symbol, ;>
+<Space>
+<Symbol, }>
+<Space>
+<Key Word, else>
+<Space>
+<Key Word, if>
+<Space>
+<Symbol, (>
+<ID, x>
+<Symbol, <>
+<ID, y>
+<Symbol, )>
+<Space>
+<Symbol, {>
+<Space>
+<ID, printf>
+<Symbol, (>
+<ID, x>
+<Space>
+<Symbol, <>
+<Space>
+<ID, y>
+<Symbol, )>
+<Symbol, ;>
+<Space>
+<Symbol, }>
+<Space>
+<Key Word, else>
+<Space>
+<Symbol, {>
+<Space>
+<ID, printf>
+<Symbol, (>
+<ID, x>
+<Space>
+<Symbol, ==>
+<Space>
+<ID, y>
+<Symbol, )>
+<Symbol, ;>
+<Space>
+<Symbol, }>
+<Space>
+<Key Word, return>
+<Space>
+<NUM, 0>
+<Symbol, ;>
+<Space>
+<Symbol, }>
+<Space>
+<Key Word, void>
+<Space>
+<ID, main>
+<Symbol, (>
+<Symbol, )>
+<Space>
+<Symbol, {>
+<Space>
+<Key Word, int>
+<Space>
+<ID, x>
+<Space>
+<Symbol, =>
+<Space>
+<NUM, 5>
+<Symbol, ;>
+<Space>
+<Key Word, while>
+<Space>
+<Symbol, (>
+<ID, x>
+<Space>
+<Symbol, >>
+<Space>
+<NUM, 0>
+<Symbol, )>
+<Space>
+<Symbol, {>
+<Space>
+<ID, x>
+<Symbol, =>
+<ID, x>
+<Symbol, ->
+<NUM, 1>
+<Symbol, ;>
+<Space>
+<Symbol, }>
+<Space>
+<ID, compare>
+<Symbol, (>
+<NUM, 5>
+<Symbol, ,>
+<NUM, 6>
+<Symbol, )>
+<Symbol, ;>
+<Space>
+<Key Word, return>
+<Space>
+<NUM, 0>
+<Symbol, ;>
+<Space>
+<Symbol, }>

@@ -58,7 +58,6 @@ void process_keys12(int* key1, int* key2) {
 }
 
 void process_keys34(int* key3, int* key4) {
-
 	*(((int*)& key3) + *key3) += *key4;
 }
 
@@ -120,6 +119,7 @@ int main(int argc, char* argv[])
 	}
 
 	msg1 = extract_message1(start, stride);
+
 	if (*msg1 == '\0') {
 		process_keys34(&key3, &key4);
 		msg2 = extract_message2(start, stride);

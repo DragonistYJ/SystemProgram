@@ -1,0 +1,107 @@
+<Annotation, /* A program to perform Euclids
+        Algorithm to compute gcd. */>
+<Space>
+<Key Word, int>
+<Space>
+<ID, gcd>
+<Space>
+<Symbol, (>
+<Key Word, int>
+<Space>
+<ID, u>
+<Symbol, ,>
+<Space>
+<Key Word, int>
+<Space>
+<ID, v>
+<Symbol, )>
+<Space>
+<Symbol, {>
+<Space>
+<Key Word, if>
+<Space>
+<Symbol, (>
+<ID, v>
+<Space>
+<Symbol, ==>
+<Space>
+<NUM, 0>
+<Symbol, )>
+<Space>
+<Key Word, return>
+<Space>
+<ID, u>
+<Symbol, ;>
+<Space>
+<Key Word, else>
+<Space>
+<Key Word, return>
+<Space>
+<ID, gcd>
+<Symbol, (>
+<ID, v>
+<Symbol, ,>
+<Space>
+<ID, u>
+<Symbol, ->
+<ID, u>
+<Symbol, />
+<ID, v>
+<Symbol, *>
+<ID, v>
+<Symbol, )>
+<Symbol, ;>
+<Space>
+<Annotation, /* u-u/v*v == u mod v */>
+<Space>
+<Symbol, }>
+<Space>
+<Key Word, void>
+<Space>
+<ID, main>
+<Symbol, (>
+<Key Word, void>
+<Symbol, )>
+<Space>
+<Symbol, {>
+<Space>
+<Key Word, int>
+<Space>
+<ID, x>
+<Symbol, ;>
+<Space>
+<Key Word, int>
+<Space>
+<ID, y>
+<Symbol, ;>
+<Space>
+<ID, x>
+<Space>
+<Symbol, =>
+<Space>
+<ID, input>
+<Symbol, (>
+<Symbol, )>
+<Symbol, ;>
+<Space>
+<ID, y>
+<Space>
+<Symbol, =>
+<Space>
+<ID, input>
+<Symbol, (>
+<Symbol, )>
+<Symbol, ;>
+<Space>
+<ID, output>
+<Symbol, (>
+<ID, gcd>
+<Symbol, (>
+<ID, x>
+<Symbol, ,>
+<ID, y>
+<Symbol, )>
+<Symbol, )>
+<Symbol, ;>
+<Space>
+<Symbol, }>
